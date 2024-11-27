@@ -4,6 +4,7 @@
 #Description: This script will generate 6 unique random lottery numbers
 import random
 
+"""""
 lotto = []
 
 while len(lotto) < 6:
@@ -12,5 +13,10 @@ while len(lotto) < 6:
         lotto.append(num)
     else:
         print("Duplicate number =", num)
+"""""
+lotto = set() # PYTHONIC solution
+while len(lotto) < 6:
+    num = random.randint(1, 50)
+    lotto.add(num)
 
-print("Lottery number =", lotto)
+print("Lottery number =", sorted(lotto))
