@@ -54,6 +54,5 @@ def main():
 if __name__ == "__main__":
     # Execute ONLY if ran directly as a program
     # Ignore if imported as a module
-    print("Hello")
     main()
     sys.exit(0)
