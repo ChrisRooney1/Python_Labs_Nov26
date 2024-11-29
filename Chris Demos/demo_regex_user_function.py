@@ -1,8 +1,7 @@
 #! /usr/bin/env python3
 #Author: Chris Rooney
 #Version: 1.0
-#Description: This script will demo how to match text data using str testing
-#and Regular Expressions/Regex and the re module
+#Description: This script will demo how to define and call a user function
 """
 
     Docstring
