@@ -18,5 +18,3 @@ def power(x, z):
 def sqrt(x):
     """ Return square root of x to 2 decimal places """
     return round(x**0.5, 2)
-
-sys.exit(0)
